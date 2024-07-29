@@ -1,0 +1,1048 @@
+{
+    "CL_-=_-=": "Duplicator\\Installer\\Package\\ArchiveDescriptor",
+    "dup_type": "pro",
+    "created": "2024-07-29 13:51:06",
+    "version_dup": "4.5.16",
+    "version_wp": "6.6.1",
+    "version_db": "10.6.18",
+    "version_php": "8.0.30",
+    "version_os": "Linux",
+    "blogname": "Coffee Shop",
+    "exportOnlyDB": false,
+    "secure_on": 0,
+    "secure_pass": "",
+    "dbhost": null,
+    "dbname": null,
+    "dbuser": null,
+    "cpnl_host": null,
+    "cpnl_user": null,
+    "cpnl_pass": null,
+    "cpnl_enable": null,
+    "wp_tableprefix": "wpqg_",
+    "mu_mode": 0,
+    "mu_generation": 0,
+    "mu_siteadmins": [
+        "admin"
+    ],
+    "subsites": [
+        {
+            "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorSubsite",
+            "id": 1,
+            "domain": "coffee-shop.elvirainfotech.live",
+            "path": "\/",
+            "blogname": "Coffee Shop",
+            "blog_prefix": "wpqg_",
+            "filteredTables": [],
+            "adminUsers": [
+                {
+                    "CL_-=_-=": "stdClass",
+                    "ID": "1",
+                    "user_login": "admin@coffee-shop",
+                    "id": "1"
+                }
+            ],
+            "fullHomeUrl": "https:\/\/coffee-shop.elvirainfotech.live",
+            "fullSiteUrl": "https:\/\/coffee-shop.elvirainfotech.live",
+            "uploadPath": "wp-content\/uploads",
+            "fullUploadPath": "\/home\/hguusaov\/coffee-shop.elvirainfotech.live\/wp-content\/uploads",
+            "fullUploadSafePath": "\/home\/hguusaov\/coffee-shop.elvirainfotech.live\/wp-content\/uploads",
+            "fullUploadUrl": "http:\/\/coffee-shop.elvirainfotech.live\/wp-content\/uploads",
+            "filteredPaths": []
+        }
+    ],
+    "main_site_id": 1,
+    "mu_is_filtered": false,
+    "license_limit": 1000,
+    "license_type": 11,
+    "dbInfo": {
+        "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBInfo",
+        "buildMode": "PHPCHUNKING",
+        "charSetList": [
+            "utf8mb4",
+            "utf8mb3"
+        ],
+        "collationList": [
+            "utf8mb3_general_ci",
+            "utf8mb4_unicode_520_ci",
+            "utf8mb4_unicode_ci"
+        ],
+        "engineList": [
+            "InnoDB"
+        ],
+        "isTablesUpperCase": true,
+        "lowerCaseTableNames": 0,
+        "isNameUpperCase": false,
+        "name": "hguusaov_wp403",
+        "tablesBaseCount": 59,
+        "tablesFinalCount": 59,
+        "muFilteredTableCount": 0,
+        "tablesRowCount": 1808,
+        "tablesSizeOnDisk": 5783552,
+        "tablesList": {
+            "wpqg_actionscheduler_actions": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "49",
+                "insertedRows": 49,
+                "size": 131072
+            },
+            "wpqg_actionscheduler_claims": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpqg_actionscheduler_groups": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "5",
+                "insertedRows": 5,
+                "size": 32768
+            },
+            "wpqg_actionscheduler_logs": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "145",
+                "insertedRows": 145,
+                "size": 49152
+            },
+            "wpqg_commentmeta": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpqg_comments": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "9",
+                "insertedRows": 9,
+                "size": 114688
+            },
+            "wpqg_customer_reword": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpqg_duplicator_backups": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "1",
+                "insertedRows": 1,
+                "size": 180224
+            },
+            "wpqg_duplicator_entities": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "9",
+                "insertedRows": 9,
+                "size": 163840
+            },
+            "wpqg_links": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpqg_litespeed_url": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpqg_litespeed_url_file": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 98304
+            },
+            "wpqg_loyality_points": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "1",
+                "insertedRows": 2,
+                "size": 16384
+            },
+            "wpqg_myCRED_log": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 114688
+            },
+            "wpqg_options": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "705",
+                "insertedRows": 715,
+                "size": 2260992
+            },
+            "wpqg_postmeta": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "238",
+                "insertedRows": 238,
+                "size": 98304
+            },
+            "wpqg_posts": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "128",
+                "insertedRows": 128,
+                "size": 262144
+            },
+            "wpqg_stamps_collected": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 1,
+                "size": 16384
+            },
+            "wpqg_termmeta": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "3",
+                "insertedRows": 3,
+                "size": 49152
+            },
+            "wpqg_terms": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "17",
+                "insertedRows": 18,
+                "size": 49152
+            },
+            "wpqg_term_relationships": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "25",
+                "insertedRows": 25,
+                "size": 32768
+            },
+            "wpqg_term_taxonomy": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "18",
+                "insertedRows": 18,
+                "size": 49152
+            },
+            "wpqg_usermeta": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "53",
+                "insertedRows": 53,
+                "size": 49152
+            },
+            "wpqg_users": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 1,
+                "size": 65536
+            },
+            "wpqg_wc_admin_notes": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "57",
+                "insertedRows": 64,
+                "size": 65536
+            },
+            "wpqg_wc_admin_note_actions": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "91",
+                "insertedRows": 91,
+                "size": 81920
+            },
+            "wpqg_wc_category_lookup": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "2",
+                "insertedRows": 2,
+                "size": 16384
+            },
+            "wpqg_wc_customer_lookup": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 1,
+                "size": 49152
+            },
+            "wpqg_wc_download_log": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpqg_wc_orders": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "5",
+                "insertedRows": 5,
+                "size": 131072
+            },
+            "wpqg_wc_orders_meta": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "70",
+                "insertedRows": 70,
+                "size": 49152
+            },
+            "wpqg_wc_order_addresses": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "10",
+                "insertedRows": 10,
+                "size": 81920
+            },
+            "wpqg_wc_order_coupon_lookup": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpqg_wc_order_operational_data": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "5",
+                "insertedRows": 5,
+                "size": 49152
+            },
+            "wpqg_wc_order_product_lookup": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "10",
+                "insertedRows": 10,
+                "size": 81920
+            },
+            "wpqg_wc_order_stats": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "5",
+                "insertedRows": 5,
+                "size": 65536
+            },
+            "wpqg_wc_order_tax_lookup": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpqg_wc_product_attributes_lookup": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpqg_wc_product_download_directories": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "2",
+                "insertedRows": 2,
+                "size": 32768
+            },
+            "wpqg_wc_product_meta_lookup": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "6",
+                "insertedRows": 6,
+                "size": 131072
+            },
+            "wpqg_wc_rate_limits": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpqg_wc_reserved_stock": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpqg_wc_tax_rate_classes": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "2",
+                "insertedRows": 2,
+                "size": 32768
+            },
+            "wpqg_wc_webhooks": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpqg_woocommerce_api_keys": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpqg_woocommerce_attribute_taxonomies": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpqg_woocommerce_downloadable_product_permissions": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "wpqg_woocommerce_log": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpqg_woocommerce_order_itemmeta": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "120",
+                "insertedRows": 120,
+                "size": 49152
+            },
+            "wpqg_woocommerce_order_items": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "15",
+                "insertedRows": 15,
+                "size": 32768
+            },
+            "wpqg_woocommerce_payment_tokenmeta": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpqg_woocommerce_payment_tokens": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpqg_woocommerce_sessions": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "2",
+                "insertedRows": 2,
+                "size": 32768
+            },
+            "wpqg_woocommerce_shipping_zones": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 1,
+                "size": 16384
+            },
+            "wpqg_woocommerce_shipping_zone_locations": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 1,
+                "size": 49152
+            },
+            "wpqg_woocommerce_shipping_zone_methods": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 1,
+                "size": 16384
+            },
+            "wpqg_woocommerce_tax_rates": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "wpqg_woocommerce_tax_rate_locations": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpqg_wp_phpmyadmin_extension__errors_log": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 32768
+            }
+        },
+        "dbEngine": "MariaDB",
+        "version": "10.6.18",
+        "versionComment": "MariaDB Server",
+        "viewCount": 0,
+        "procCount": 0,
+        "funcCount": 0,
+        "triggerList": []
+    },
+    "packInfo": {
+        "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorPackageInfo",
+        "packageId": 2,
+        "packageName": "Default",
+        "packageHash": "323d1b6-29135045",
+        "secondaryHash": "18476c4-29135045"
+    },
+    "fileInfo": {
+        "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorFileInfo",
+        "dirCount": 1952,
+        "fileCount": 12037,
+        "size": 75015630
+    },
+    "wpInfo": {
+        "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorWpInfo",
+        "version": "6.6.1",
+        "is_multisite": false,
+        "network_id": 1,
+        "targetRoot": "\/home\/hguusaov\/coffee-shop.elvirainfotech.live",
+        "targetPaths": [
+            "\/home\/hguusaov\/coffee-shop.elvirainfotech.live"
+        ],
+        "adminUsers": [
+            {
+                "CL_-=_-=": "stdClass",
+                "ID": "1",
+                "user_login": "admin@coffee-shop",
+                "id": "1"
+            }
+        ],
+        "configs": {
+            "CL_-=_-=": "stdClass",
+            "defines": {
+                "CL_-=_-=": "stdClass",
+                "ABSPATH": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "\/home\/hguusaov\/coffee-shop.elvirainfotech.live\/",
+                    "inWpConfig": true
+                },
+                "DB_CHARSET": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "utf8",
+                    "inWpConfig": true
+                },
+                "DB_COLLATE": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "",
+                    "inWpConfig": true
+                },
+                "AUTH_KEY": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "18yfryb4bgdx0kr6xyjexw3zobrgb4ddw4s7h15kvcyvr5ptqtfxn1jnpetwyf6e",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_KEY": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "pll8cli2ywkxrrzxi5kfbs29bc9jzl5u6h4of7wfhlqsjiyfzefdiisskmjboy1y",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_KEY": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "0pihlke8jrzyefqf5gkyic7krz4ldardpqiloolrfi3fos8mzkiijro8g48tjize",
+                    "inWpConfig": true
+                },
+                "NONCE_KEY": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "wamhotlojne58nlanmsrxu9nsoffirvlibxb1gqnz1cwjoev9ajhjx4zmvh6nlpv",
+                    "inWpConfig": true
+                },
+                "AUTH_SALT": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "pnu893aihgihjw6m7hc4bxnqxllclnehptxf07feomcdokmvagnvqfe4it9yf0xf",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_SALT": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "jfb64r2xq104cbu5sshj8zr7zoatdngh7uyu9vwmka5gt8ktlyg2gyona9a47dk9",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_SALT": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "r4pbiv5tgejojnvwgj7qvnncyuefi5vixzyly30dbllqb7i9n7ht2n1h5hbsrhre",
+                    "inWpConfig": true
+                },
+                "NONCE_SALT": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "p0puhdfy749wlqv2oqbjwbcuvlofcadzln0wh6lpr8slrqlwitmkfphtvn0wjjmr",
+                    "inWpConfig": true
+                },
+                "WP_CONTENT_DIR": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "\/home\/hguusaov\/coffee-shop.elvirainfotech.live\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_CONTENT_URL": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "http:\/\/coffee-shop.elvirainfotech.live\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_DIR": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "\/home\/hguusaov\/coffee-shop.elvirainfotech.live\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_URL": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "http:\/\/coffee-shop.elvirainfotech.live\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "PLUGINDIR": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "AUTOSAVE_INTERVAL": {
+                    "CL_-=_-=": "stdClass",
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "WP_POST_REVISIONS": {
+                    "CL_-=_-=": "stdClass",
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "COOKIE_DOMAIN": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "",
+                    "inWpConfig": false
+                },
+                "MULTISITE": {
+                    "CL_-=_-=": "stdClass",
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG": {
+                    "CL_-=_-=": "stdClass",
+                    "value": false,
+                    "inWpConfig": true
+                },
+                "SCRIPT_DEBUG": {
+                    "CL_-=_-=": "stdClass",
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_LOG": {
+                    "CL_-=_-=": "stdClass",
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_DISPLAY": {
+                    "CL_-=_-=": "stdClass",
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WP_MEMORY_LIMIT": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "40M",
+                    "inWpConfig": false
+                },
+                "WP_MAX_MEMORY_LIMIT": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "2G",
+                    "inWpConfig": false
+                },
+                "WP_CACHE": {
+                    "CL_-=_-=": "stdClass",
+                    "value": true,
+                    "inWpConfig": true
+                },
+                "WP_LANG_DIR": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "\/home\/hguusaov\/coffee-shop.elvirainfotech.live\/wp-content\/languages",
+                    "inWpConfig": false
+                },
+                "WP_CRON_LOCK_TIMEOUT": {
+                    "CL_-=_-=": "stdClass",
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "COOKIEPATH": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "SITECOOKIEPATH": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "ADMIN_COOKIE_PATH": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "\/wp-admin",
+                    "inWpConfig": false
+                },
+                "PLUGINS_COOKIE_PATH": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "TEMPLATEPATH": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "\/home\/hguusaov\/coffee-shop.elvirainfotech.live\/wp-content\/themes\/coffee_shop",
+                    "inWpConfig": false
+                },
+                "STYLESHEETPATH": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "\/home\/hguusaov\/coffee-shop.elvirainfotech.live\/wp-content\/themes\/coffee_shop",
+                    "inWpConfig": false
+                },
+                "EMPTY_TRASH_DAYS": {
+                    "CL_-=_-=": "stdClass",
+                    "value": 30,
+                    "inWpConfig": false
+                },
+                "FORCE_SSL_ADMIN": {
+                    "CL_-=_-=": "stdClass",
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_DIR": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "\/home\/hguusaov\/coffee-shop.elvirainfotech.live\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_URL": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "http:\/\/coffee-shop.elvirainfotech.live\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "MUPLUGINDIR": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "wp-content\/mu-plugins",
+                    "inWpConfig": false
+                }
+            },
+            "realValues": {
+                "CL_-=_-=": "stdClass",
+                "siteUrl": "https:\/\/coffee-shop.elvirainfotech.live",
+                "homeUrl": "https:\/\/coffee-shop.elvirainfotech.live",
+                "loginUrl": "https:\/\/coffee-shop.elvirainfotech.live\/wp-login.php",
+                "contentUrl": "https:\/\/coffee-shop.elvirainfotech.live\/wp-content",
+                "uploadBaseUrl": "http:\/\/coffee-shop.elvirainfotech.live\/wp-content\/uploads",
+                "pluginsUrl": "https:\/\/coffee-shop.elvirainfotech.live\/wp-content\/plugins",
+                "mupluginsUrl": "http:\/\/coffee-shop.elvirainfotech.live\/wp-content\/mu-plugins",
+                "themesUrl": "https:\/\/coffee-shop.elvirainfotech.live\/wp-content\/themes",
+                "originalPaths": {
+                    "CL_-=_-=": "stdClass",
+                    "home": "\/home\/hguusaov\/coffee-shop.elvirainfotech.live",
+                    "abs": "\/home\/hguusaov\/coffee-shop.elvirainfotech.live",
+                    "wpconfig": "\/home\/hguusaov\/coffee-shop.elvirainfotech.live",
+                    "wpcontent": "\/home\/hguusaov\/coffee-shop.elvirainfotech.live\/wp-content",
+                    "uploads": "\/home\/hguusaov\/coffee-shop.elvirainfotech.live\/wp-content\/uploads",
+                    "plugins": "\/home\/hguusaov\/coffee-shop.elvirainfotech.live\/wp-content\/plugins",
+                    "muplugins": "\/home\/hguusaov\/coffee-shop.elvirainfotech.live\/wp-content\/mu-plugins",
+                    "themes": "\/home\/hguusaov\/coffee-shop.elvirainfotech.live\/wp-content\/themes"
+                },
+                "archivePaths": {
+                    "CL_-=_-=": "stdClass",
+                    "home": "\/home\/hguusaov\/coffee-shop.elvirainfotech.live",
+                    "abs": "\/home\/hguusaov\/coffee-shop.elvirainfotech.live",
+                    "wpconfig": "\/home\/hguusaov\/coffee-shop.elvirainfotech.live",
+                    "wpcontent": "\/home\/hguusaov\/coffee-shop.elvirainfotech.live\/wp-content",
+                    "uploads": "\/home\/hguusaov\/coffee-shop.elvirainfotech.live\/wp-content\/uploads",
+                    "plugins": "\/home\/hguusaov\/coffee-shop.elvirainfotech.live\/wp-content\/plugins",
+                    "muplugins": "\/home\/hguusaov\/coffee-shop.elvirainfotech.live\/wp-content\/mu-plugins",
+                    "themes": "\/home\/hguusaov\/coffee-shop.elvirainfotech.live\/wp-content\/themes"
+                }
+            }
+        },
+        "plugins": {
+            "wp-database-backup\/wp-database-backup.php": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorPlugin",
+                "slug": "wp-database-backup\/wp-database-backup.php",
+                "name": "Backup For WP",
+                "version": "6.12.1",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/wp-database-backup",
+                "author": "Backup for WP",
+                "authorURI": "https:\/\/backupforwp.com\/",
+                "description": "This plugin helps you to create\/restore Unlimited  WordPress Database & Files backup.",
+                "title": "Backup For WP",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false,
+                "isInArchive": true
+            },
+            "classic-editor\/classic-editor.php": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorPlugin",
+                "slug": "classic-editor\/classic-editor.php",
+                "name": "Classic Editor",
+                "version": "1.6.4",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/classic-editor\/",
+                "author": "WordPress Contributors",
+                "authorURI": "https:\/\/github.com\/WordPress\/classic-editor\/",
+                "description": "Enables the WordPress classic editor and the old-style Edit Post screen with TinyMCE, Meta Boxes, etc. Supports the older plugins that extend this screen.",
+                "title": "Classic Editor",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false,
+                "isInArchive": true
+            },
+            "coffe-shop-addon\/coffe-shop-addon.php": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorPlugin",
+                "slug": "coffe-shop-addon\/coffe-shop-addon.php",
+                "name": "Coffe Shop Addon",
+                "version": "1.0.0",
+                "pluginURI": "https:\/\/elvirainfotech.live\/",
+                "author": "Rehain Reza",
+                "authorURI": "https:\/\/elvirainfotech.live\/",
+                "description": "This is some demo short description...",
+                "title": "Coffe Shop Addon",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false,
+                "isInArchive": true
+            },
+            "duplicator-pro\/duplicator-pro.php": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorPlugin",
+                "slug": "duplicator-pro\/duplicator-pro.php",
+                "name": "Duplicator Pro",
+                "version": "4.5.16",
+                "pluginURI": "https:\/\/duplicator.com\/",
+                "author": "Duplicator",
+                "authorURI": "https:\/\/duplicator.com\/",
+                "description": "Create, schedule and transfer a copy of your WordPress files and database. Duplicate and move a site from one location to another quickly.",
+                "title": "Duplicator Pro",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false,
+                "isInArchive": true
+            },
+            "litespeed-cache\/litespeed-cache.php": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorPlugin",
+                "slug": "litespeed-cache\/litespeed-cache.php",
+                "name": "LiteSpeed Cache",
+                "version": "6.3",
+                "pluginURI": "https:\/\/www.litespeedtech.com\/products\/cache-plugins\/wordpress-acceleration",
+                "author": "LiteSpeed Technologies",
+                "authorURI": "https:\/\/www.litespeedtech.com",
+                "description": "High-performance page caching and site optimization from LiteSpeed",
+                "title": "LiteSpeed Cache",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false,
+                "isInArchive": true
+            },
+            "mycred\/mycred.php": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorPlugin",
+                "slug": "mycred\/mycred.php",
+                "name": "myCred",
+                "version": "2.7.1",
+                "pluginURI": "https:\/\/mycred.me",
+                "author": "myCred",
+                "authorURI": "https:\/\/mycred.me",
+                "description": "An adaptive points management system for WordPress powered websites.",
+                "title": "myCred",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false,
+                "isInArchive": true
+            },
+            "woo-postnl\/postnl-for-woocommerce.php": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorPlugin",
+                "slug": "woo-postnl\/postnl-for-woocommerce.php",
+                "name": "PostNL for WooCommerce",
+                "version": "5.4.2",
+                "pluginURI": "https:\/\/github.com\/Progressus-io\/postnl-for-woocommerce\/",
+                "author": "PostNL",
+                "authorURI": "https:\/\/postnl.post\/",
+                "description": "With this plug-in you can easily confirm your PostNL shipments and print shipping labels in no time. In addition, your customers are more in control because they choose where and when they receive their order.",
+                "title": "PostNL for WooCommerce",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false,
+                "isInArchive": true
+            },
+            "safe-svg\/safe-svg.php": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorPlugin",
+                "slug": "safe-svg\/safe-svg.php",
+                "name": "Safe SVG",
+                "version": "2.2.5",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/safe-svg\/",
+                "author": "10up",
+                "authorURI": "https:\/\/10up.com",
+                "description": "Enable SVG uploads and sanitize them to stop XML\/SVG vulnerabilities in your WordPress website",
+                "title": "Safe SVG",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false,
+                "isInArchive": true
+            },
+            "woo-gift-cards-lite\/woocommerce_gift_cards_lite.php": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorPlugin",
+                "slug": "woo-gift-cards-lite\/woocommerce_gift_cards_lite.php",
+                "name": "Ultimate Gift Cards For WooCommerce",
+                "version": "3.0.1",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/woo-gift-cards-lite\/?utm_source=wpswings-giftcards-org&utm_medium=giftcards-org-backend&utm_campaign=org",
+                "author": "WP Swings",
+                "authorURI": "https:\/\/wpswings.com\/?utm_source=wpswings-giftcards-official&utm_medium=giftcards-org-backend&utm_campaign=official",
+                "description": "<code><strong>Ultimate Gift Cards For WooCommerce<\/strong><\/code> allows merchants to create and sell fascinating Gift Card Product with multiple price variation. <a href=\"https:\/\/wpswings.com\/woocommerce-plugins\/?utm_source=wpswings-giftcards-shop&utm_medium=giftcards-org-backend&utm_campaign=shop-page\" target=\"_blank\"> Elevate your e-commerce store by exploring more on <strong> WP Swings <\/strong><\/a>.",
+                "title": "Ultimate Gift Cards For WooCommerce",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false,
+                "isInArchive": true
+            },
+            "woocommerce\/woocommerce.php": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorPlugin",
+                "slug": "woocommerce\/woocommerce.php",
+                "name": "WooCommerce",
+                "version": "9.1.4",
+                "pluginURI": "https:\/\/woocommerce.com\/",
+                "author": "Automattic",
+                "authorURI": "https:\/\/woocommerce.com",
+                "description": "An ecommerce toolkit that helps you sell anything. Beautifully.",
+                "title": "WooCommerce",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false,
+                "isInArchive": true
+            }
+        },
+        "themes": {
+            "coffee_shop": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorTheme",
+                "slug": "coffee_shop",
+                "themeName": "Coffee Shop",
+                "version": "1.0",
+                "themeURI": "",
+                "parentTheme": false,
+                "template": "coffee_shop",
+                "stylesheet": "coffee_shop",
+                "description": "Fully Dynamic WordPress Bootstrapped Responsive Theme",
+                "author": "Raihan Reza",
+                "authorURI": "https:\/\/elvirainfotech.com",
+                "tags": [
+                    "Bootstrap",
+                    "Blog",
+                    "ACF",
+                    "Custom Background",
+                    "Buddypress",
+                    "Custom Colors",
+                    "Custom Logo",
+                    "Custom Menu",
+                    "Featured Images",
+                    "Customized Template"
+                ],
+                "isAllowed": true,
+                "isActive": true,
+                "defaultTheme": false
+            },
+            "twentytwentyfour": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorTheme",
+                "slug": "twentytwentyfour",
+                "themeName": "Twenty Twenty-Four",
+                "version": "1.2",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentyfour\/",
+                "parentTheme": false,
+                "template": "twentytwentyfour",
+                "stylesheet": "twentytwentyfour",
+                "description": "Twenty Twenty-Four is designed to be flexible, versatile and applicable to any website. Its collection of templates and patterns tailor to different needs, such as presenting a business, blogging and writing or showcasing work. A multitude of possibilities open up with just a few adjustments to color and typography. Twenty Twenty-Four comes with style variations and full page designs to help speed up the site building process, is fully compatible with the site editor, and takes advantage of new design tools introduced in WordPress 6.4.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "translation-ready",
+                    "wide-blocks",
+                    "block-styles",
+                    "style-variations",
+                    "accessibility-ready",
+                    "blog",
+                    "portfolio",
+                    "news"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": true
+            },
+            "twentytwentythree": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorTheme",
+                "slug": "twentytwentythree",
+                "themeName": "Twenty Twenty-Three",
+                "version": "1.5",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentythree",
+                "parentTheme": false,
+                "template": "twentytwentythree",
+                "stylesheet": "twentytwentythree",
+                "description": "Twenty Twenty-Three is designed to take advantage of the new design tools introduced in WordPress 6.1. With a clean, blank base as a starting point, this default theme includes ten diverse style variations created by members of the WordPress community. Whether you want to build a complex or incredibly simple website, you can do it quickly and intuitively through the bundled styles or dive into creation and full customization yourself.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "translation-ready",
+                    "wide-blocks",
+                    "block-styles",
+                    "style-variations",
+                    "accessibility-ready",
+                    "blog",
+                    "portfolio",
+                    "news"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": false
+            },
+            "twentytwentytwo": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorTheme",
+                "slug": "twentytwentytwo",
+                "themeName": "Twenty Twenty-Two",
+                "version": "1.8",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentytwo\/",
+                "parentTheme": false,
+                "template": "twentytwentytwo",
+                "stylesheet": "twentytwentytwo",
+                "description": "Built on a solidly designed foundation, Twenty Twenty-Two embraces the idea that everyone deserves a truly unique website. The theme\u2019s subtle styles are inspired by the diversity and versatility of birds: its typography is lightweight yet strong, its color palette is drawn from nature, and its layout elements sit gently on the page. The true richness of Twenty Twenty-Two lies in its opportunity for customization. The theme is built to take advantage of the Site Editor features introduced in WordPress 5.9, which means that colors, typography, and the layout of every single page on your site can be customized to suit your vision. It also includes dozens of block patterns, opening the door to a wide range of professionally designed layouts in just a few clicks. Whether you\u2019re building a single-page website, a blog, a business website, or a portfolio, Twenty Twenty-Two will help you create a site that is uniquely yours.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org\/",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "style-variations",
+                    "wide-blocks",
+                    "block-styles",
+                    "accessibility-ready",
+                    "blog",
+                    "portfolio",
+                    "news"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": false
+            }
+        }
+    },
+    "defaultStorageId": 3,
+    "components": [
+        "package_component_db",
+        "package_component_core",
+        "package_component_plugins",
+        "package_component_themes",
+        "package_component_uploads",
+        "package_component_other"
+    ],
+    "opts_delete": [
+        "duplicator_pro_ui_view_state",
+        "duplicator_pro_package_active",
+        "duplicator_pro_settings"
+    ],
+    "brand": {
+        "name": "Duplicator Professional",
+        "isDefault": true,
+        "logo": "<i class=\"fa fa-bolt fa-sm\"><\/i> Duplicator Pro",
+        "enabled": false,
+        "style": []
+    },
+    "overwriteInstallerParams": {
+        "cpnl-dbaction": {
+            "value": "create"
+        }
+    },
+    "installer_base_name": "installer.php",
+    "installer_backup_name": "Default_323d1b68113b050c9796_20240729135045_installer-backup.php",
+    "package_name": "Default_323d1b68113b050c9796_20240729135045_archive.zip",
+    "package_hash": "323d1b6-29135045",
+    "package_notes": "The default template."
+}

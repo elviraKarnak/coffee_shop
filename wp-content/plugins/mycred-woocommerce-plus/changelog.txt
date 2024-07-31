@@ -1,0 +1,131 @@
+﻿Version 1.7.5
+------------------------------------------------------------
+Improvement – License System
+
+Version 1.7.4
+------------------------------------------------------------
+NEW - On Signup referral users will get points after first order ( on any product, products except, selected products ).
+NEW - Create wooCommerce coupon using points.
+NEW - Added two new attributes "login_url" and "registration_url" in mycred_woocommerce_referral shortcode.
+NEW - Added compatability with Custom Product Page development using Elemetor.
+TWEAK - Added new settings for both partial payment and coupon to display on both cart-page and check-out page.
+TWEAK - Added compatibility with Custom Product Page developed using Elemetor.
+TWEAK - Updated WooCommerce deprecated functions.
+TWEAK - On plugin activation added a check to see whether the myCred and wooCommerce plugins are intalled and activated.
+FIX - Resolved the translation and localization issues.
+FIX - Array error on the single product page.
+FIX - Partial payment minimum amount wasn't working with "Input Field".
+FIX - Partial Payment Points History on my account wasn't working.
+FIX - Single addon license issues.
+FIX - On bulk action, Users were not receiving rewards.
+FIX - Max limit being applied on users balance when the user's balance is less than the order total.
+FIX - Displaying singular name with plural points.
+FIX - Variation selection not working on the single product page.
+FIX - Partial payment refund.
+
+Version 1.7.3
+------------------------------------------------------------
+TWEAK – Speed Optimization
+FIX – Security fixes
+
+Version 1.7.2
+------------------------------------------------------------
+NEW - Added support for WooCommerce Subscription.
+NEW - Display Badges, rank, balance and level on my account page.
+FIX - Display rewards on variable product page.
+
+------------------------------------------------------------
+Version 1.7.1
+------------------------------------------------------------
+FIX - Total amount vaule Issue on Checkout Page
+FIX - Scripts and CSS Removing from entire site
+FIX - My account particial payments history pagination
+FIX - Replace WooCommerce depreciated function get_cart_discount_total with get_discount_total
+FIX - Float values for percentage point calculation
+
+------------------------------------------------------------
+Version 1.7.0
+------------------------------------------------------------
+Added - Point Reward System on Cart Total
+Added - Points Earned In - Fixed, Percentage, Exchange Rate
+
+Version 1.6.6
+------------------------------------------------------------
+Added - WooCommercer Affiliation/Refferal system
+FIX - User total balance not reflecting when points deducted through partial payment.
+
+Version 1.6.5
+------------------------------------------------------------
+NEW - Create Individual Option to show Reward Points on Single Product Page/Cart Page/Checkout Page.
+
+Version 1.6.4
+------------------------------------------------------------
+Improvement – License System
+
+Version 1.6.3
+------------------------------------------------------------
+NEW - Added functionality to enable/disable partial paymment.
+FIX - fixed translation slugs.
+
+
+Version 1.6.2
+------------------------------------------------------------
+Improvement - Partial payment range and slider values show in number format.
+Improvement - License related issues.
+FIX - Badges and rank addon activate issue fixed.
+
+Version 1.6.1
+------------------------------------------------------------
+FIX - View details popup on plugins page.
+FIX - License related issues.
+
+Version 1.6
+------------------------------------------------------------
+Improvement: Compatible with existing partial payment addon’s users
+
+Version 1.5.3
+------------------------------------------------------------
+NOTICE - We have introduced myCred WooCommerce Plus Addon which includes the functionality of WooCommerce – Partial Payment and some other amazing features.
+If you are existing user of WooCommerce – Partial Payment Addon, there will be an update version 1.5.3 which will switch you automatically on myCred WooCommerce Plus.
+
+Version 1.5.2
+------------------------------------------------------------
+FIX - Remove warnings and errors 
+
+Version 1.5.1
+------------------------------------------------------------
+Improvement - Upgrading License System
+New - Tested UpTo WooCommerce 3.8.x
+New - Tested UpTo WordPress 5.3 & Php 7.4
+
+Version 1.5
+------------------------------------------------------------
+FIX - Partial payment amount will not exceed the maximum amount.
+FIX - Check for partial payment maximum limit on the server side.
+FIX - Set textdomain for translation.
+
+Version 1.4
+------------------------------------------------------------
+FIX - slider max limit applied.
+
+Version 1.3
+------------------------------------------------------------
+FIX - slider appearing issue.
+FIX - Multiple refund on same coupon.
+FIX - Shipping fees added on front end if paid.
+
+Version 1.2
+------------------------------------------------------------
+Added support for myCRED 1.8 with backward compatibility.
+Tested upto WordPress 5.0.2
+
+Version 1.1
+------------------------------------------------------------
+FIX - Added support for WooCommerce 3.2
+TWEAK - Requires WooCommerce 3.0+
+TWEAK - Requires myCRED 1.7 or higher
+NEW - Added option to show points in My Account
+
+Version 1.0
+------------------------------------------------------------
+Initial release

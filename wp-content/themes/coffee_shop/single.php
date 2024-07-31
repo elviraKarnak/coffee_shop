@@ -18,6 +18,6 @@ get_header();
 </section>
 
 
-<?php endwhile; endif; 
+<?php endwhile; endif;
 
 get_footer(); ?>

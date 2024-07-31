@@ -53,3 +53,25 @@ register_nav_menus(
 		add_action( 'after_setup_theme', 'coffee_shop_setup_theme' );
 
 require get_template_directory() . '/inc/custom_functions.php';
+
+
+function add_mycred_points_on_order_complete($order_id) {
+    // Get the order object
+    $order = wc_get_order($order_id);
+
+    // Get the user ID
+    $user_id = $order->get_user_id();
+
+    // Get the order total
+    $order_total = $order->get_total();
+
+    // Add points to the user's myCred account
+    if ($user_id && $order_total) {
+        $points = floatval($order_total); // Ensure the points are in numeric form
+        $reference = 'order_completed'; // Reference for the transaction
+        $log_entry = 'Points for order #' . $order_id; // Log entry
+        mycred_add($reference, $user_id, $points, $log_entry, $order_id);
+    }
+}
+
+add_action('woocommerce_order_status_completed', 'add_mycred_points_on_order_complete');
